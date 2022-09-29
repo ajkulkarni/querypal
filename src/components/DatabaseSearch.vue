@@ -30,7 +30,6 @@
 import {AthenaClient, ListDatabasesCommand, ListTableMetadataCommand} from '@aws-sdk/client-athena';
 import { Analytics } from '@aws-amplify/analytics';
 import eventBus from "@/event";
-import awsconfig from "@/aws-exports";
 
 export default {
   name: "DatabaseSearch",
