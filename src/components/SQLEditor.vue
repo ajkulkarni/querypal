@@ -26,6 +26,9 @@
           </b-col>
           <b-col md="4">
             <div class="query-button-holder">
+              <b-button variant="outline-primary" :disabled="code === ''" @click="noop" style="margin-right: 11px">
+                Create AF
+              </b-button>
               <b-button variant="outline-primary" :disabled="code === ''" @click="showSaveQueryModal = !showSaveQueryModal" style="margin-right: 11px">
                 Share
                 <b-icon icon="share-fill"></b-icon>
@@ -130,6 +133,8 @@ export default {
     }
   }),
   methods: {
+    noop() {
+    },
     highlighter(code) {
       return highlight(code, languages.sql, 'sql');
     },
