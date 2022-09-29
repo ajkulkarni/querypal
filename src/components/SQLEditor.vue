@@ -26,10 +26,10 @@
           </b-col>
           <b-col md="4">
             <div class="query-button-holder">
-              <b-button variant="outline-primary" :disabled="code === ''" @click="noop" style="margin-right: 11px">
+              <b-button variant="outline-primary" :disabled="code === ''" @click="noop" style="margin-right: 5px">
                 Create AF
               </b-button>
-              <b-button variant="outline-primary" :disabled="code === ''" @click="showSaveQueryModal = !showSaveQueryModal" style="margin-right: 11px">
+              <b-button variant="outline-primary" :disabled="code === ''" @click="showSaveQueryModal = !showSaveQueryModal" style="margin-right: 5px">
                 Share
                 <b-icon icon="share-fill"></b-icon>
               </b-button>
@@ -268,6 +268,6 @@ export default {
 
 .query-button-holder {
   margin-top: 10px;
-  margin-left: 1em;
+  margin-left: 0em;
 }
 </style>
