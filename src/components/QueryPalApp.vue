@@ -28,9 +28,9 @@ export default {
         {
           target: '#v-step-0',  // We're using document.querySelector() under the hood
           header: {
-            title: 'Explore Amazon Athena Databases',
+            title: 'Explore Data Lake',
           },
-          content: `Explore <strong>all Amazon Athena Databases</strong> in your data lake!`,
+          content: `Explore <strong>all Data Lake instances</strong>!`,
           params: {
             placement: 'right'
           }
@@ -38,9 +38,9 @@ export default {
         {
           target: '#v-step-1',  // We're using document.querySelector() under the hood
           header: {
-            title: 'Explore Athena Tables',
+            title: 'Explore Data Lake Tables',
           },
-          content: `Explore <strong>tables in the selected Athena Databases</strong>!`,
+          content: `Explore <strong>tables in the selected Data Lake instance</strong>!`,
           params: {
             placement: 'bottom'
           }
