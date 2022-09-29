@@ -268,6 +268,6 @@ export default {
 
 .query-button-holder {
   margin-top: 10px;
-  margin-left: 6em;
+  margin-left: 1em;
 }
 </style>
