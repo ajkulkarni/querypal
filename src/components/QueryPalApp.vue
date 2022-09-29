@@ -72,7 +72,7 @@ export default {
             placement: 'left'
           },
           header: {
-            title: 'Querypal Global Timeline',
+            title: 'Mantis Global Timeline',
           },
         }
       ]
