@@ -4,7 +4,7 @@
       <b-tabs card>
         <b-tab v-for="i in sqlEditorTabs" :key="'dyn-tab-' + i">
           <template #title>
-            <strong>Querypal Tab  {{ i + 1}}</strong> <b-icon-x-circle-fill @click="closeSQLEditorTab(i)"></b-icon-x-circle-fill>
+            <strong>Query Tab  {{ i + 1}}</strong> <b-icon-x-circle-fill @click="closeSQLEditorTab(i)"></b-icon-x-circle-fill>
           </template>
           <SQLEditor/>
         </b-tab>
