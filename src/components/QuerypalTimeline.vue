@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h5>Global Querypal Timeline</h5>
+    <h5>Global Query Timeline</h5>
     <div class="mb-3" v-if="showSearchBar">
       <small>Enter keywords to search shared queries</small>
       <b-form-input v-on:keypress="executeFullQuerySearch" v-model="text" placeholder="Looking for wikistats queries..."></b-form-input>

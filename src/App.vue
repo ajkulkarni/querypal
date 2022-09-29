@@ -2,13 +2,13 @@
   <div id="app">
     <amplify-authenticator>
       <amplify-sign-in
-        header-text="Querypal, Web UI for Amazon Athena"
+        header-text="Mantis Data Explorer"
         slot="sign-in"
         :style="{display: 'flex',justifyContent: 'center', marginTop: '15em'}"
       >
       </amplify-sign-in>
       <amplify-sign-up
-        header-text="Sign Up for Querypal demo"
+        header-text="Sign-up for Mantis Data Explorer"
         slot="sign-up"
         :style="{display: 'flex',justifyContent: 'center', marginTop: '15em'}"
       ></amplify-sign-up>
