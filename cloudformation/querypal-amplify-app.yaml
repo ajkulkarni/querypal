@@ -17,7 +17,7 @@ Parameters:
   pQuerypalGitHubRepo:
     Description: Querypal GitHUb repository. Default is the OSS version. This might change if you decide customize Querypal
     Type: String
-    Default: https://github.com/OElesin/querypal
+    Default: https://github.com/ajkulkarni/querypal
   pQuerypalAppName:
     Description: Querypal AWS Amplify App Name
     Type: String

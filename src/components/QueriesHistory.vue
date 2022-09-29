@@ -22,10 +22,10 @@ export default {
   name: "QueriesHistory",
   async created() {
     eventBus.$on('refreshCredentials', async (credentials) => {
-      this.client = new AthenaClient({credentials: credentials, region: 'eu-west-1'})
+      this.client = new AthenaClient({credentials: credentials, region: 'us-east-1'})
     })
     const credentials = await Auth.currentCredentials()
-    this.client = new AthenaClient({credentials, region: 'eu-west-1'})
+    this.client = new AthenaClient({credentials, region: 'us-east-1'})
     this.currentUser = await Auth.currentUserInfo()
     let self = this
     queryDao.sessionQuerySubscription(this.currentUser.username).subscribe( {
